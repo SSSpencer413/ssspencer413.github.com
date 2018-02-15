@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title=mode
+    link(rel='stylesheet', href='/stylesheets/'+mode+'.css')
+    link(rel='stylesheet', href='/stylesheets/defaults.css')
+  body
+    #desc
+      if mode=="MaximusTribee"
+        
+        img#image.SSSIcon(alt=mode, src='https://images.discordapp.net/avatars/259513794978381824/cd711bfdff69b152633fbaf9f4fe4fa4.png?size=512', width='128px', height='128px', style='margin-top:80px;border-radius:50%;')
+      else
+        img#image.SSSIcon(alt=mode, src='https://images.discordapp.net/avatars/180803410306662401/1036950e68d44c862929c59843baac1e.png?size=512', width='128px', height='128px', style='margin-top:80px;border-radius:50%;')
+      
+      h1#nameHead=mode 
+      p#info=(mode == "SSSpencer413") ? "Welcome to my website.  Now get out." : "Hi everyone! I'm Maximus Tribee! I'm an 11 year old GFX artist and slight coder! I haven't been active much, but that's because I'm a busy kid!"
+    #projectList
+      h2 Here's a list of our websites:
+      ul(style='list-style-type: none;')
+        li
+          a(href='/theserverbot') The Server Bot

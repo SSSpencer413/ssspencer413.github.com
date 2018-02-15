@@ -1,0 +1,22 @@
+       h1   {color: white; font-family: arial;}
+       h2   {color: white; font-family: arial;}
+       h3   {color: white; font-family: arial;}
+       h4   {color: white; font-family: arial;}
+       p    {color: #99aab5; font-family: sans-serif;}
+       body  {background-color: #2a2d32; margin-top: 10%;}
+
+       ::-webkit-scrollbar {
+           width: .4%;
+       }
+       ::-webkit-scrollbar-track {
+           background: #2e3136;
+       }
+       ::-webkit-scrollbar-thumb {
+           background: #99aab5;
+       }
+       ::-webkit-scrollbar-corner {
+           background: #2e3136;
+       }
+       ::-webkit-resizer {
+           width: .4%;
+       }
